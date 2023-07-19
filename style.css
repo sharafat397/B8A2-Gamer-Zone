@@ -35,16 +35,18 @@ line-height: normal;
 }
 .icon-container{
     display: flex;
+
     align-items: center;
     border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
-padding: 7px 35px;
-margin-right: 50px;
+height: 80px;
+padding: 15px;
+
 
 
 }
 .fa-gamepad{
-    color: #FF42A5;
+    color: #407093;
    
 }
 .nav-li-items a{
@@ -66,10 +68,11 @@ font-weight: 500;
     margin-right: 9px;
   }
   .youtube{
-    font-size: 25px;
+    font-size: 10px;
+    align-items: center;
   }
   .facebook{
-    font-size: 25px;
+    font-size: 10px;
     color: #0574E7;
   }
 .banner-title{
@@ -227,9 +230,124 @@ height: 650px;
     height: 365.083px;
     position: absolute;
     top: 230%;
-    right: 800px;
-      
-      
+    right: 800px;        
+}
+.extra-section{
+    display: flex;
+    width: 243px;
+height: 80px;
+flex-shrink: 0;
+border: 3px solid whitesmoke;
+border-radius: 50px;
+background: #FFF;
+margin-top: 17px;
+margin-right: 20px;
+
+}
+
+.extra-container{
+    margin-top: 270px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 400px;
+    margin: 10 ;
+    margin-left: 14%;
+    
+    
+}
+
+
+.game-name{
+    color: #0B0223;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.extra-section-container{
+
+    display: flex;
+    background-color: #F61C0D;
+}
+.footer{
+    width: 1920px;
+height: 636px;
+background-color: #0B0223;
+margin-top: 10px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.extra-section:hover{
+    border: 1px solid red;
+}
+.anchor{
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+
+}
+.anchor1{
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+
+}
+
+.anchor a{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+
+}
+.anchor1 a{
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+
+}
+.fa-brands{
+height: 70px;
+width: 100px;
+font-size: 50px;
+text-align: center;
+padding-top: 80px;
+}
+.anchor2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.anchor2 a{
+    color: rgba(255, 255, 255, 0.60);
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration: none;
+margin-right: 20px;
+}
+.end{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 10px;
 }
   @media screen and (max-width:576px) {
 
@@ -332,4 +450,52 @@ height: 350px;
       
       
 }
-  }
+.extra-container{
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 17px;
+}
+.extra-section{
+        width: 140px;
+    height: 70px;
+    flex-shrink: 0;
+    border: 3px solid whitesmoke;
+    border-radius: 50px;
+    background: #FFF;
+    margin-top: 7px;
+    margin-right: 10px;
+    
+    }
+    .game-name{
+        font-size: 13px;
+    }
+    .extra-section{
+        height: 60%;
+    }
+    .footer{
+        width: 100%;
+        height: 100%;
+    }
+    .anchor{
+        display: grid;
+       grid-template-columns: repeat(3,1fr);
+      
+      
+       
+        }
+        .anchor1{
+            display: grid;
+           grid-template-columns: repeat(3,1fr);
+          
+          
+           
+            }
+            .anchor2{
+                display: grid;
+               grid-template-columns: repeat(2,1fr);
+              
+            margin-top: 10px;
+               padding-top: 30px;
+                }
+            }
+
+  
