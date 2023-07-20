@@ -141,10 +141,12 @@ background: #4EC5F7;
 }
 .card{
     position:relative;
+    cursor: pointer;
 }
 .btn{
     position:absolute;
-    transform: translate(120px,-200px);
+    top:100%;
+    left:45%;
     opacity: 0;
 }
 .card:hover{
